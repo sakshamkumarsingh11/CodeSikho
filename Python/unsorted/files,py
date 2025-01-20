@@ -1,0 +1,3 @@
+f=open("demo.txt","w")
+f.write("This is the first time i m learning about files. 12345")
+f.close()

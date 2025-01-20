@@ -1,0 +1,37 @@
+==================== HP Update Package Start : 10/18/2024 3:11:09 PM ====================
+ - LogPath : c:\SWSetup\SP155192\HPUP_20241018151109.log
+ - GUIMode : False
+ - Timeout : 0
+[10/18/2024 3:11:09 PM][ACT] Manage Certificate for HP Signature
+[10/18/2024 3:11:09 PM][INF][GetCertificateStatus] Signature Status on HPUP : SIGNATURE_STATE_VALID
+[10/18/2024 3:11:09 PM][INF][GetErrorFromSignatureState] Signature State : SIGNATURE_STATE_VALID
+[10/18/2024 3:11:09 PM][INF][GetSignatureStatusFromWin32Error] Signature Status : Valid
+[10/18/2024 3:11:09 PM][INF][ValidateCertificate] Cert Subject on File - c:\SWSetup\SP155192\HPUP.exe : CN=HP Inc., O=HP Inc., L=Palo Alto, S=California, C=US
+[10/18/2024 3:11:09 PM][INF][ValidateCertificate] Cert Signer on File - c:\SWSetup\SP155192\HPUP.exe : HP Inc.
+[10/18/2024 3:11:09 PM][INF][ValidateCertificate] HPUP Cert Thumprint : A69742FC1C73960E645DC5D290A6973EF761140C
+[10/18/2024 3:11:09 PM][INF][ManageCertificate] Matched Certificate is found in Store
+[10/18/2024 3:11:09 PM][ACT] Validate Certificate Status on Security Catalog
+[10/18/2024 3:11:09 PM][INF][GetCertificateStatus] Signature Status on HPUP : SIGNATURE_STATE_VALID
+[10/18/2024 3:11:09 PM][INF][GetErrorFromSignatureState] Signature State : SIGNATURE_STATE_VALID
+[10/18/2024 3:11:09 PM][INF][GetSignatureStatusFromWin32Error] Signature Status : Valid
+[10/18/2024 3:11:09 PM][INF][ValidateCertificate] Cert Subject on File - c:\SWSetup\SP155192\Package.cat : CN=HP Inc., O=HP Inc., L=Palo Alto, S=California, C=US
+[10/18/2024 3:11:09 PM][INF][ValidateCertificate] Cert Signer on File - c:\SWSetup\SP155192\Package.cat : HP Inc.
+[10/18/2024 3:11:09 PM][INF][ValidateCertificate] HPUP Cert Thumprint : A04C4E4DA415627A4682AE6AE0B0AF9CEF225E40
+[10/18/2024 3:11:09 PM][INF] Certificate Status on Security Catalog : Valid
+[10/18/2024 3:11:09 PM][ACT] Validate Package Content Integrity by Security Catalog
+[10/18/2024 3:11:10 PM][INF] Package Content : Valid
+[10/18/2024 3:11:10 PM][ACT] Lookup for Install Script to execute
+[10/18/2024 3:11:10 PM][ACT] Execute Install Script
+[10/18/2024 3:11:10 PM][INF][ExecuteInstaller] Execute Info : C:\WINDOWS\System32\cmd.exe /c "c:\SWSetup\SP155192\Install.cmd"
+[10/18/2024 3:11:10 PM][INF][ExecuteInstaller] Execution Start Time : 10/18/2024 3:11:10 PM
+[10/18/2024 3:11:54 PM][INF][ExecuteInstaller] Execution Exit Time : 10/18/2024 3:11:54 PM
+[10/18/2024 3:11:54 PM][INF][ExecuteInstaller] Execution Exit Code : 0
+[10/18/2024 3:11:54 PM][INF] Execute Install Script with ExitCode - 0
+[10/18/2024 3:11:54 PM][ACT] Manage Certificate for HP Signature
+[10/18/2024 3:11:54 PM][INF][GetCertificateStatus] Signature Status on HPUP : SIGNATURE_STATE_VALID
+[10/18/2024 3:11:54 PM][INF][GetErrorFromSignatureState] Signature State : SIGNATURE_STATE_VALID
+[10/18/2024 3:11:54 PM][INF][GetSignatureStatusFromWin32Error] Signature Status : Valid
+[10/18/2024 3:11:54 PM][INF][ValidateCertificate] Cert Subject on File - c:\SWSetup\SP155192\HPUP.exe : CN=HP Inc., O=HP Inc., L=Palo Alto, S=California, C=US
+[10/18/2024 3:11:54 PM][INF][ValidateCertificate] Cert Signer on File - c:\SWSetup\SP155192\HPUP.exe : HP Inc.
+[10/18/2024 3:11:54 PM][INF][ValidateCertificate] HPUP Cert Thumprint : A69742FC1C73960E645DC5D290A6973EF761140C
+[10/18/2024 3:11:54 PM][INF][ManageCertificate] Matched Certificate is found in Store

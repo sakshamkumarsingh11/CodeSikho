@@ -1,0 +1,12 @@
+import turtle
+
+s=turtle.getscreen()
+turtle.hideturtle()
+t1 = turtle.Turtle()
+
+t1.goto(100,100)
+t1.hideturtle()
+turtle.done()
+
+#done  
+#to show turtle we use showturtle the same way

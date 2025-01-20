@@ -1,0 +1,46 @@
+2022-03-25 15:08:03.060|Info|Attempt to execute c:\SWSetup\SP136548\install.cmd...
+
+c:\SWSetup\SP136548>REM The following is required in all INSTALL.CMD files 
+
+c:\SWSetup\SP136548>if exist c:\system.sav\util\SetVariables.cmd Call c:\system.sav\util\SetVariables.cmd 
+
+c:\SWSetup\SP136548>Set block=c:\SWSetup\SP136548\ 
+
+c:\SWSetup\SP136548>CD /D "c:\SWSetup\SP136548\" 
+
+c:\SWSetup\SP136548>REM Remove the REM from the next line if your component does not support Silent Install (Application Recovery) 
+
+c:\SWSetup\SP136548>REM Erase /F /Q *.CVA 
+
+c:\SWSetup\SP136548>REM Add the command-line to have your component to be installed properly 
+
+c:\SWSetup\SP136548>Pushd src 
+
+c:\SWSetup\SP136548\src>CALL "installdrv.cmd" 
+
+c:\SWSetup\SP136548\src>REM ======================================================== 
+
+c:\SWSetup\SP136548\src>REM   Driver deliverable installation 
+
+c:\SWSetup\SP136548\src>REM  
+
+c:\SWSetup\SP136548\src>REM   Template Version: V1.03b 
+
+c:\SWSetup\SP136548\src>REM ======================================================== 
+
+c:\SWSetup\SP136548\src>set versiondrv=1.03b 
+
+c:\SWSetup\SP136548\src>set errcode=0 
+
+c:\SWSetup\SP136548\src>REM  
+**************************************************************
+***  Batch Install Realtek Wireless LAN Driver               
+***                                                            
+***  Please wait a moment	                  
+
+----- 25-03-2022 15:09:01.33 ----- Installation BEGIN 
+----- 25-03-2022 15:09:01.68 ----- Installation END 
+     
+**************************************************************
+***  Driver Install Finished                                       
+

@@ -1,0 +1,7 @@
+"""ques Reverse Countdown: Create a program that starts from 10 and counts down to 1, printing each number."""
+
+
+i=10
+while i>0:
+    print(i)
+    i-=1

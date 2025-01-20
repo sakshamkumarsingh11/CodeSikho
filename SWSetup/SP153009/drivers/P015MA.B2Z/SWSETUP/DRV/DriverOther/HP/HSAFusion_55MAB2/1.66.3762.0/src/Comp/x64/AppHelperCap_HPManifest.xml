@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HPCustomCapabilities xmlns="http://tempuri.org/FusionManifest.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IntegrityMethod type="win32">
+    <PK>30 82 01 8a 02 82 01 81 00 b4 58 47 15 6d e1 c7 9a 0f 87 7b c7 54 f3 7e 9b c4 9f 9b 9f 98 d8 db 85 49 72 87 be dd 0f a6 b4 b1 34 e0 d1 1f e3 12 84 6d 7c d5 9b d8 45 f3 6a c8 f8 89 bf 3b 53 8a 77 d8 3d 50 fb 81 27 73 63 22 2a 98 4f 85 de a3 73 00 68 a6 c3 c4 df d2 57 58 a5 45 79 03 9c de a1 38 ba 9e 11 b7 f0 66 c5 fb d0 e4 c3 36 aa 58 62 54 d2 dd 7f 51 a4 67 6d bc b2 b8 4d c8 3d f5 a5 80 8e 99 2f 56 f3 fc 8e d5 bc db d9 53 e3 ea eb fa d6 ca ad 03 18 19 4a 0c ec 5c 0a 01 e0 14 c7 3f 8b 28 1b 7c fd 02 85 79 d6 45 cf 14 ed 5f a2 f0 7b 3e a1 65 ab a8 d0 a2 2b 57 78 97 ce 78 ee b7 d7 3e 55 91 0a 30 bb 4c dc 68 f1 ff cc 72 53 cf 6a 40 8b 3b 18 50 b0 4d 1a cb 75 c0 85 0e a1 6b 92 30 05 74 8e 6d bb ab a2 da e6 f2 93 e0 ba ba 3b 57 61 4e 4d 87 0c 91 96 aa 04 fb 32 df eb ee 11 ce 91 15 b7 15 ed 2a 76 f8 2b 82 21 50 19 e3 cd 9a cb c3 2b f7 16 38 17 16 01 df 33 a6 5a 4a 20 d8 f3 54 0c cb c1 9b b6 8a ff 15 dd d3 44 5a ed b6 54 a6 5d 3a 17 34 e6 fc 26 b3 c2 05 0d 79 a5 a1 dc 3c 7f c1 f1 bc c3 0f 6f a1 4c a0 86 ac fe 94 5f 1c 44 b9 4d a8 b7 3e db 2c 58 de 27 8d b2 49 b7 41 4d 0c 9b eb 63 a6 6b 03 9e 6b 8c d2 32 db 60 92 e5 be 02 32 18 6e 54 0c d9 45 15 bb 28 85 c9 8b 0c 3c fb 02 03 01 00 01</PK>
+  </IntegrityMethod>
+  <Permissions>
+    <Capability name="HPInc.hpSysInfoCap_v10z8vjag6ke6">
+      <Modules>
+        <Module name="AnalyticsService"></Module>
+        <Module name="SMBiosService"></Module>
+      </Modules>
+    </Capability>
+    <Capability name="HPInc.hpNetworkCap_v10z8vjag6ke6">
+      <Modules>
+        <Module name="HttpService"></Module>
+      </Modules>
+    </Capability>
+    <Capability name="HPInc.hpAppHelperCap_v10z8vjag6ke6">
+
+    </Capability>
+    <Capability name="HPInc.bridgecommunication">
+      <Modules>
+        <Module name="InternetProxy"></Module>
+        <Module name="AppServiceProxy"></Module>
+      </Modules>
+    </Capability>
+  </Permissions>
+</HPCustomCapabilities>

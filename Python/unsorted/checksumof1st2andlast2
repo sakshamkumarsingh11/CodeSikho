@@ -1,0 +1,18 @@
+#Write a program to solve the following:
+
+#Take a 4-digit number as input.
+#Check if the sum of the first two digits equals the sum of the last two digits.
+
+Input= input("Enter the 4 digit number")
+
+if len(Input)== 4 and Input.isdigit():
+    
+    input_firsthalf= int(Input[0])+int(Input[1])
+    input_secondhalf= int(Input[2])+int(Input[3])
+    
+    if input_firsthalf>input_secondhalf:
+        print(" Yes")
+    else:
+        print("No")
+else:
+    print("Enter valid input")

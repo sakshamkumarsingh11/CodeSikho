@@ -1,0 +1,2 @@
+This is the additional part for the file.
+Lets check the append mode 12345
